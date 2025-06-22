@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Big Image Viewer (OSD)</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.css">
+    <style>
+        html, body, #openseadragon {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="openseadragon"></div>
+    <script type="text/javascript">
+        OpenSeadragon({
+            id: "openseadragon",
+            prefixUrl: "https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/images/",
+            tileSources: "tiles_folder.dzi"
+        });
+    </script>
+</body>
+</html>
