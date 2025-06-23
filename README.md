@@ -8,6 +8,8 @@ A tool for visualizing the allocation and usage of the IPv4 address space.
 
 **Demo:** [https://stevenli-phoenix.github.io/IPv4SpaceVisualizer/](https://stevenli-phoenix.github.io/IPv4SpaceVisualizer/)
 
+![ip_4096](https://github.com/user-attachments/assets/03e39c6f-b89d-47da-9c28-66ac0324e43c)
+
 ## Getting Started
 
 Clone the repo and run:
